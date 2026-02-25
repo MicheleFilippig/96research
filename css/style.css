@@ -270,6 +270,15 @@ main.container {
   margin-bottom: 2rem;
 }
 
+.article-body h1 a {
+  color: #FF5722;
+  text-decoration: none;
+}
+
+.article-body h1 a:hover {
+  color: #e55a2b;
+}
+
 .article-body h2 {
   font-family: var(--font-serif);
   font-size: 1.2rem;

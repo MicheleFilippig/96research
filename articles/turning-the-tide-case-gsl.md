@@ -1,4 +1,4 @@
-# The Case for Global Ship Lease (GSL:US)
+# The Case for Global Ship Lease ([GSL:US](https://finance.yahoo.com/quote/GSL/financials/))
 
 <div id="gsl-return"></div>
 
