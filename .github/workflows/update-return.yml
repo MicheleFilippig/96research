@@ -1,0 +1,30 @@
+name: Update GSL Total Return
+
+on:
+  schedule:
+    - cron: '30 21 * * 1-5'  # 21:30 UTC = after NYSE close (Mon-Fri)
+  workflow_dispatch:           # allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance
+
+      - name: Run update script
+        run: python scripts/update_return.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/gsl-return.json
+          git diff --staged --quiet || git commit -m "Update GSL total return"
+          git push

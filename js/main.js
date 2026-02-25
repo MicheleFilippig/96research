@@ -113,6 +113,7 @@ function loadArticle(articles) {
         var titleMatch = md.match(/^#\s+(.+)/m);
         if (titleMatch) document.title = titleMatch[1] + ' \u2014 96 Research';
         document.getElementById('article-body').innerHTML = renderMarkdown(md);
+        loadGslReturn();
       })
       .catch(function() {
         document.getElementById('article-body').innerHTML =
@@ -153,6 +154,7 @@ function loadArticle(articles) {
           '</div>';
       } else {
         document.getElementById('article-body').innerHTML = rendered;
+      loadGslReturn();
       }
     })
     .catch(function() {
@@ -218,6 +220,23 @@ function inline(t) {
 }
 
 function esc(t) { return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+
+function loadGslReturn() {
+  var el = document.getElementById('gsl-return');
+  if (!el) return;
+  fetch('data/gsl-return.json')
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (d.total_return === null) return;
+      var sign = d.total_return >= 0 ? '+' : '';
+      var color = d.total_return >= 0 ? '#2a7a2a' : '#c0392b';
+      el.innerHTML =
+        '<p class="gsl-return-banner">GSL Total Return (incl. dividends) since ' + d.start_date + ': ' +
+        '<span style="color:' + color + ';font-weight:600">' + sign + d.total_return + '%</span>' +
+        '<span class="gsl-return-date"> &middot; as of ' + d.as_of + '</span></p>';
+    })
+    .catch(function() {});
+}
 
 /* Init */
 document.addEventListener('DOMContentLoaded', function() {
