@@ -1,5 +1,7 @@
 # The Case for Global Ship Lease (GSL:US)
 
+<div id="gsl-return"></div>
+
 ## The Setup
 
 Global Ship Lease doesn't fit neatly into the usual shipping narrative. It's not a mega-carrier playing the mainlane game, and it's not a distressed turnaround story either. It is a company that has spent the better part of a decade cleaning up its balance sheet, locking in long-term charters with tier-one counterparties, and positioning its mid-sized fleet in exactly the segment of the market that today's fragmented trade environment rewards.
