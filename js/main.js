@@ -228,12 +228,15 @@ function loadGslReturn() {
     .then(function(r) { return r.json(); })
     .then(function(d) {
       if (d.total_return === null) return;
-      var sign = d.total_return >= 0 ? '+' : '';
-      var color = d.total_return >= 0 ? '#2a7a2a' : '#c0392b';
+      var rounded = Math.round(d.total_return);
+      var sign = rounded >= 0 ? '+' : '';
+      var isPositive = rounded >= 0;
+      var color = isPositive ? '#2a7a2a' : '#c0392b';
+      el.className = 'gsl-return-banner' + (isPositive ? '' : ' negative');
       el.innerHTML =
-        '<p class="gsl-return-banner">GSL Total Return (incl. dividends) since ' + d.start_date + ': ' +
-        '<span style="color:' + color + ';font-weight:600">' + sign + d.total_return + '%</span>' +
-        '<span class="gsl-return-date"> &middot; as of ' + d.as_of + '</span></p>';
+        '<span class="gsl-return-value" style="color:' + color + '">' + sign + rounded + '%</span>' +
+        '<span class="gsl-return-label">GSL Total Return (incl. dividends)</span>' +
+        '<span class="gsl-return-date">since ' + formatDateShort(d.start_date) + ' &middot; as of ' + formatDateShort(d.as_of) + '</span>';
     })
     .catch(function() {});
 }

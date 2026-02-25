@@ -349,14 +349,37 @@ main.container {
 
 .gsl-return-banner {
   font-family: var(--font-sans);
-  font-size: 0.82rem;
-  color: var(--color-text-secondary);
-  margin-bottom: 2rem;
+  border-left: 3px solid #2a7a2a;
+  padding-left: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+
+.gsl-return-banner.negative {
+  border-left-color: #c0392b;
+}
+
+.gsl-return-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.gsl-return-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--color-text);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0.2rem;
 }
 
 .gsl-return-date {
-  font-size: 0.75rem;
+  display: block;
+  font-size: 0.72rem;
   color: #aaa;
+  margin-top: 0.1rem;
 }
 
 .article-body p.chart-source {
