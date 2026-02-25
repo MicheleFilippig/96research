@@ -1,7 +1,5 @@
 # Trading the Tide
 
-<div id="gsl-return"></div>
-
 There are nearly [7,000 container ships](https://www.progressivepolicy.org/trade-fact-of-the-week-a-new-container-ship-launches-every-day/) alone in the global merchant fleet, which totals more than 100,000 vessels. The world's largest class of cargo carriers each measure the length of four American football fields, and the width of nine school buses parked side by side.
 
 Here are just a few of the hurricane-strength headwinds these tankers are facing: (i) The US has reimposed broad tariffs on key sectors; (ii) Europe is building new protectionist walls, (iii) Sanctions on Russia have reshaped entire trade corridors; (iv) The Red Sea has turned increasingly turbulent with geopolitical uncertainty.
