@@ -10,7 +10,7 @@ The thesis is simple on the surface: GSL trades at sub-3x FY25E earnings and EV/
 
 ## Why Mid-Sized Vessels Matter Right Now
 
-GSL operates 69 containerships ranging from 2,000 to 11,000 TEU, focused entirely on what the industry calls non-mainlane trades: the routes that account for nearly 75% of global containerized volumes but rarely make headlines. These aren't the behemoth vessels servicing Asia-Europe corridors. They're workhorses, and in the current environment, that's a feature, not a limitation.
+GSL operates 69 containerships ranging from 2,000 to 11,000 TEU, focused entirely on what the industry calls non-mainlane trades: the routes that account for nearly 75% of global containerized volumes (according to Maritime Strategies International, with the mainlines being Transpacific, Asia-Europe, and Transatlantic) but rarely make headlines. These aren't the behemoth vessels servicing Asia-Europe corridors. They're workhorses, and in the current environment, that's a feature, not a limitation.
 
 Trade fragmentation has made flexibility valuable in ways it wasn't five years ago. As geopolitical tensions push shippers toward shorter, more diversified supply chains, vessels that can access secondary terminals and pivot to emerging lanes have a structural advantage over mega-ships locked into fixed arterial routes. Red Sea disruptions have added another layer: with roughly 10% of global fleet capacity absorbed by Cape of Good Hope rerouting, effective supply has tightened considerably. Demand measured in ton-miles is expected to grow around 6% in 2025 as a direct consequence. There's no obvious near-term resolution in sight.
 
