@@ -18,6 +18,10 @@ Trade fragmentation has made flexibility valuable in ways it wasn't five years a
 
 On the supply side, the picture for sub-10,000 TEU vessels is equally supportive. The median fleet age in this segment sits at around 17.5 years (versus average 7.5 years for over-10,000 TEU ships), and the overall fleet is projected to shrink by over 6% through 2028 as older tonnage exits without being replaced at equivalent scale. New orders in this size category have been limited, which tightens the available pool further. Secondhand values for five-year-old ships are up 17% annually despite softer spot rates, a divergence that signals something the headline rate data doesn't fully capture.
 
+![GSL Supply](../images/GSL_supply.png)
+
+<p class="chart-source">(1) Maritime Strategies International Ltd (MSI)</p>
+
 ## The Financial Picture
 
 1H25 revenue came in at $383 million, up 8% YoY, with normalized EPS of $5.32 and Adjusted EBITDA of $267mn at roughly 70% margins. The $1.73 billion contracted backlog averages 2.1 years in duration, which means FY26 visibility is effectively already locked in. All 2025 capacity is fixed; 2026 is close to fully covered. Counterparties include Hapag-Lloyd at 27% of revenues, Maersk at 24%, and CMA CGM at 18%; not exactly names that raise credit concerns.
