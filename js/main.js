@@ -228,13 +228,26 @@ function loadGslReturn() {
     .then(function(r) { return r.json(); })
     .then(function(d) {
       if (d.total_return === null) return;
-      var rounded = Math.round(d.total_return);
-      var sign = rounded >= 0 ? '+' : '';
-      var isPositive = rounded >= 0;
-      var color = isPositive ? '#2a7a2a' : '#c0392b';
+      var gsl = Math.round(d.total_return);
+      var gslSign = gsl >= 0 ? '+' : '';
+      var isPositive = gsl >= 0;
+      var gslColor = isPositive ? '#2a7a2a' : '#c0392b';
       el.className = 'gsl-return-banner' + (isPositive ? '' : ' negative');
+
+      var benchmarkHtml = '';
+      if (d.sp500_return !== null && d.sp500_return !== undefined) {
+        var sp = Math.round(d.sp500_return);
+        var spSign = sp >= 0 ? '+' : '';
+        var alpha = gsl - sp;
+        var alphaSign = alpha >= 0 ? '+' : '';
+        var alphaColor = alpha >= 0 ? '#2a7a2a' : '#c0392b';
+        benchmarkHtml =
+          ' <span class="gsl-vs">vs S&P 500 ' + spSign + sp + '%</span>' +
+          ' <span class="gsl-alpha" style="color:' + alphaColor + '">(' + alphaSign + alpha + 'pp)</span>';
+      }
+
       el.innerHTML =
-        '<span class="gsl-return-value" style="color:' + color + '">' + sign + rounded + '%</span>' +
+        '<span class="gsl-return-value" style="color:' + gslColor + '">' + gslSign + gsl + '%' + benchmarkHtml + '</span>' +
         '<span class="gsl-return-label">GSL Total Return (incl. dividends)</span>' +
         '<span class="gsl-return-date">since ' + formatDateShort(d.start_date) + ' &middot; as of ' + formatDateShort(d.as_of) + '</span>';
     })
