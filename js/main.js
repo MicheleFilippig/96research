@@ -238,18 +238,15 @@ function loadGslReturn() {
       if (d.sp500_return !== null && d.sp500_return !== undefined) {
         var sp = Math.round(d.sp500_return);
         var spSign = sp >= 0 ? '+' : '';
-        var alpha = gsl - sp;
-        var alphaSign = alpha >= 0 ? '+' : '';
-        var alphaColor = alpha >= 0 ? '#2a7a2a' : '#c0392b';
-        benchmarkHtml =
-          '<span class="gsl-alpha" style="color:' + alphaColor + '">' + alphaSign + alpha + 'pp vs S&P 500</span>' +
-          ' <span class="gsl-vs">(' + spSign + sp + '%)</span> &middot; ';
+        var spColor = sp >= 0 ? '#2a7a2a' : '#c0392b';
+        benchmarkHtml = '<span class="gsl-return-date" style="color:' + spColor + '">vs S&P 500 ' + spSign + sp + '%</span>';
       }
 
       el.innerHTML =
         '<span class="gsl-return-value" style="color:' + gslColor + '">' + gslSign + gsl + '%</span>' +
         '<span class="gsl-return-label">GSL Total Return (incl. dividends)</span>' +
-        '<span class="gsl-return-date">' + benchmarkHtml + 'since ' + formatDateShort(d.start_date) + ' &middot; as of ' + formatDateShort(d.as_of) + '</span>';
+        benchmarkHtml +
+        '<span class="gsl-return-date">since ' + formatDateShort(d.start_date) + ' &middot; as of ' + formatDateShort(d.as_of) + '</span>';
     })
     .catch(function() {});
 }
