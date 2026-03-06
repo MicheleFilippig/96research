@@ -377,10 +377,11 @@ main.container {
 }
 
 .gsl-vs {
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--color-text-secondary);
-  margin-left: 0.5rem;
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-top: 0.1rem;
 }
 
 .gsl-alpha {

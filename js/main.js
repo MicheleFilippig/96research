@@ -239,7 +239,7 @@ function loadGslReturn() {
         var sp = Math.round(d.sp500_return);
         var spSign = sp >= 0 ? '+' : '';
         var spColor = sp >= 0 ? '#2a7a2a' : '#c0392b';
-        benchmarkHtml = '<span class="gsl-return-date" style="color:' + spColor + '">vs S&P 500 ' + spSign + sp + '%</span>';
+        benchmarkHtml = '<span class="gsl-vs" style="color:' + spColor + '">vs S&P 500 ' + spSign + sp + '%</span>';
       }
 
       el.innerHTML =
