@@ -128,7 +128,7 @@ function loadArticle(articles) {
         var titleMatch = md.match(/^#\s+(.+)/m);
         if (titleMatch) document.title = titleMatch[1] + ' \u2014 96 Research';
         document.getElementById('article-body').innerHTML = renderMarkdown(md);
-        loadGslReturn();
+        loadReturnBanners();
       })
       .catch(function() {
         document.getElementById('article-body').innerHTML =
@@ -173,7 +173,7 @@ function loadArticle(articles) {
           '</div>';
       } else {
         document.getElementById('article-body').innerHTML = rendered;
-      loadGslReturn();
+      loadReturnBanners();
       }
     })
     .catch(function() {
@@ -242,17 +242,17 @@ function inline(t) {
 
 function esc(t) { return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 
-function loadGslReturn() {
-  var el = document.getElementById('gsl-return');
+function loadReturnBanner(elementId, jsonPath) {
+  var el = document.getElementById(elementId);
   if (!el) return;
-  fetch('data/gsl-return.json')
+  fetch(jsonPath)
     .then(function(r) { return r.json(); })
     .then(function(d) {
       if (d.total_return === null) return;
-      var gsl = Math.round(d.total_return);
-      var gslSign = gsl >= 0 ? '+' : '';
-      var isPositive = gsl >= 0;
-      var gslColor = isPositive ? '#2a7a2a' : '#c0392b';
+      var ret = Math.round(d.total_return);
+      var retSign = ret >= 0 ? '+' : '';
+      var isPositive = ret >= 0;
+      var retColor = isPositive ? '#2a7a2a' : '#c0392b';
       el.className = 'gsl-return-banner' + (isPositive ? '' : ' negative');
 
       var benchmarkHtml = '';
@@ -264,12 +264,17 @@ function loadGslReturn() {
       }
 
       el.innerHTML =
-        '<span class="gsl-return-value" style="color:' + gslColor + '">' + gslSign + gsl + '%</span>' +
-        '<span class="gsl-return-label">GSL Total Return (incl. dividends)</span>' +
+        '<span class="gsl-return-value" style="color:' + retColor + '">' + retSign + ret + '%</span>' +
+        '<span class="gsl-return-label">' + d.ticker + ' Total Return (incl. dividends)</span>' +
         benchmarkHtml +
         '<span class="gsl-return-date">since ' + formatDateShort(d.start_date) + ' &middot; as of ' + formatDateShort(d.as_of) + '</span>';
     })
     .catch(function() {});
+}
+
+function loadReturnBanners() {
+  loadReturnBanner('gsl-return', 'data/gsl-return.json');
+  loadReturnBanner('uuuu-return', 'data/uuuu-return.json');
 }
 
 /* Init */
