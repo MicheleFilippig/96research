@@ -175,7 +175,7 @@ main.container {
 }
 
 .article-list li + li {
-  border-top: 1px solid #f0f0f0;
+  border-top: none;
 }
 
 .article-item {
