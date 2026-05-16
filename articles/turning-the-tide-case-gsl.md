@@ -24,7 +24,9 @@ My view, which I'll defend through the numbers and the industry structure, is th
 
 Global Ship Lease is an independent owner and lessor of containerships, not a carrier. The distinction is important. GSL does not operate vessels on its own account or take freight rate exposure directly. Instead, it owns ships and charters them to the world's major container lines, collecting fixed daily hire rates regardless of whether freight rates in the spot market are rising or falling. Revenue is therefore a function of the contracted rate, fleet utilization, and charter duration rather than of spot freight conditions. This makes GSL far more predictable than the liner companies it serves.
 
-<div class="chart-placeholder">Chart: Share of Contracted Revenues by Charterer — Source: Company Presentation (image coming soon)</div>
+![GSL Contracted Revenues](images/GLS_1.png)
+
+<p class="chart-source">Source: Company Presentation</p>
 
 The fleet consists of 69 vessels ranging from approximately 2,000 to 11,000 TEU (Twenty-foot Equivalent Units, the standard measure of container capacity). GSL deliberately concentrates in the sub-10,000 TEU segment, the mid-sized and smaller ships that serve non-mainlane trades. These routes, spanning intra-Asia, regional feeder networks, and secondary corridors, account for roughly 74 percent of global containerized trade volumes, per the company's own investor presentations citing Maritime Strategies International data. Crucially, these lanes are inaccessible to ultra-large vessels and require precisely the kind of flexible, port-versatile tonnage that GSL operates.
 
@@ -52,7 +54,7 @@ What is particularly telling is management's execution under uncertainty. In Q1,
 
 During the same period, GSL added $352 million of contracted revenue in Q1 and a further $397 million in Q2, bringing total contracted backlog to approximately $1.73 billion as of June 30, 2025, with an average remaining duration of around 2.1 years. [At the Q2 earnings call](https://finance.yahoo.com/quote/GSL/earnings/GSL-Q2-2025-earnings_call348380.html?err=1), CEO Tom Lister noted the company had "essentially no open days in 2025," with 80% coverage secured for 2026. That is not a company exposed to a charter market correction in any meaningful near-term timeframe. It is a company that has already sold the vast majority of its capacity forward at rates locked in before any deterioration would show up in earnings.
 
-![GSL Supply](images/GLS_1.png)
+![GSL Supply](images/GSL_supply.png)
 
 <p class="chart-source">(1) Maritime Strategies International Ltd (MSI)</p>
 
