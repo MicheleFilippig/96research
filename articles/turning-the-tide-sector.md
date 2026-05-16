@@ -12,7 +12,7 @@ That's the sharpest rise in 15 years. Looking ahead, ton-mile demand is expected
 
 Suez Canal transits [remain down 50% from peak levels](https://maritime-executive.com/article/red-sea-and-suez-canal-traffic-increases-but-carriers-still-avoid-transits), with less than half the ships passing through today, compared to the pre-crisis average.
 
-![Suez Canal crossings chart](/images/suez-canal-crossings.png)
+![Suez Canal crossings chart](../images/suez-canal-crossings.png)
 
 <p class="chart-source">Source: S&P Global Market Intelligence</p>
 
