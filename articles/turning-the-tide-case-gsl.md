@@ -44,10 +44,6 @@ The 2019 US-China tariff episode offers a useful historical parallel here. Direc
 
 [New US rules treating Chinese sale-and-leaseback structures as Chinese-owned for port fee purposes](https://www.ft.com/content/0464fa65-3e0e-4e08-9eb4-09c054bcf720) reduce the appeal of those financing arrangements on American routes. As a non-Chinese lessor with clean Western ownership structure, GSL stands to gain negotiating leverage and could attract charterers actively seeking to refinance away from Chinese facilities.
 
-![GSL Supply](images/GSL_supply.png)
-
-<p class="chart-source">(1) Maritime Strategies International Ltd (MSI)</p>
-
 ## Two Consecutive Quarters of Growth While the Market Worried About Tariffs
 
 Q1 revenue came in at $191.0 million, up 6.3% year-over-year, with adjusted EBITDA of $132.3 million, also up 5.5%. Q2 extended the streak: revenue of $191.9 million, a 9.7% year-over-year increase, with adjusted EBITDA of $134.2 million, equally up 9.7%. Normalized EPS for Q1 was $2.65, and when annualized, the trailing earnings run-rate implies a P/E well below 3x at current prices.
@@ -56,9 +52,9 @@ What is particularly telling is management's execution under uncertainty. In Q1,
 
 During the same period, GSL added $352 million of contracted revenue in Q1 and a further $397 million in Q2, bringing total contracted backlog to approximately $1.73 billion as of June 30, 2025, with an average remaining duration of around 2.1 years. [At the Q2 earnings call](https://finance.yahoo.com/quote/GSL/earnings/GSL-Q2-2025-earnings_call348380.html?err=1), CEO Tom Lister noted the company had "essentially no open days in 2025," with 80% coverage secured for 2026. That is not a company exposed to a charter market correction in any meaningful near-term timeframe. It is a company that has already sold the vast majority of its capacity forward at rates locked in before any deterioration would show up in earnings.
 
-<div class="chart-placeholder">Chart: Idle Capacity of Global Containership Fleet Remains Minimal — Source: MSI (image coming soon)</div>
+![GSL Supply](images/GLS_1.png)
 
-<div class="chart-placeholder">Chart: Ship Recycling Modest in 2024 & Negligible YTD 2025 — Source: MSI (image coming soon)</div>
+<p class="chart-source">(1) Maritime Strategies International Ltd (MSI)</p>
 
 ## The Balance Sheet Transformation
 
@@ -66,9 +62,9 @@ Perhaps the most significant change at GSL over the past several years is one th
 
 The practical consequence of this deleveraging is that the average breakeven cash flow per vessel per day has fallen to approx. $9,300, a level so low relative to current and even historically average charter rates that the business generates meaningful free cash flow across a wide range of market conditions. Management's disclosed EBITDA calculator, using 10-year historical average charter rates rather than prevailing rates, implies the company remains highly cash generative even in a prolonged soft cycle.
 
-<div class="chart-placeholder">Chart: De-Risking of Balance Sheet Continues — Source: Company Presentation (image coming soon)</div>
+![GSL Balance Sheet](images/GLS_balancesheet.png)
 
-<div class="chart-placeholder">Chart: Financial Leverage Now Below 1x — Source: Company Presentation (image coming soon)</div>
+<p class="chart-source">Source: Company Presentation</p>
 
 ## A Dividend That Is Covered, Growing, and Still Underappreciated
 
