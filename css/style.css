@@ -668,6 +668,12 @@ main.container {
   margin: 2rem 0;
 }
 
+.hub-divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 0 0 2rem;
+}
+
 /* Hub link paragraphs */
 .hub-page .article-body p:not(.hub-caption) {
   margin-bottom: 0;
