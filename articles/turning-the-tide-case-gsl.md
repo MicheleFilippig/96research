@@ -60,11 +60,11 @@ During the same period, GSL added $352 million of contracted revenue in Q1 and a
 
 Perhaps the most significant change at GSL over the past several years is one that rarely makes headlines: the near-complete rehabilitation of the balance sheet. Adjusted net debt to adjusted EBITDA stood at 8.4x at the end of 2018. It is now 0.9x, a ratio that most industrial companies with far less earnings visibility would envy. Gross debt as of Q1 2025 was $777.7 million, while cash holdings reached $428.4 million, climbing further to $511 million by the time of the September update. Net debt has fallen from over $1.1 billion in 2021 to under $350 million, while EBITDA has more than doubled over the same period.
 
-The practical consequence of this deleveraging is that the average breakeven cash flow per vessel per day has fallen to approx. $9,300, a level so low relative to current and even historically average charter rates that the business generates meaningful free cash flow across a wide range of market conditions. Management's disclosed EBITDA calculator, using 10-year historical average charter rates rather than prevailing rates, implies the company remains highly cash generative even in a prolonged soft cycle.
-
 ![GSL Balance Sheet](images/GLS_balancesheet.png)
 
 <p class="chart-source">Source: Company Presentation</p>
+
+The practical consequence of this deleveraging is that the average breakeven cash flow per vessel per day has fallen to approx. $9,300, a level so low relative to current and even historically average charter rates that the business generates meaningful free cash flow across a wide range of market conditions. Management's disclosed EBITDA calculator, using 10-year historical average charter rates rather than prevailing rates, implies the company remains highly cash generative even in a prolonged soft cycle.
 
 ## A Dividend That Is Covered, Growing, and Still Underappreciated
 
