@@ -270,7 +270,7 @@ main.container {
   color: var(--color-text-secondary);
   line-height: 1.6;
   margin-bottom: 1.8rem;
-  text-align: left;
+  text-align: center;
 }
 
 .hub-lede {
