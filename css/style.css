@@ -400,6 +400,50 @@ main.container {
   margin-top: 0.2rem;
 }
 
+.key-takeaways {
+  background-color: #f5f4f0;
+  border-left: 3px solid var(--color-text);
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.key-takeaways .key-takeaways-title {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text);
+  margin-bottom: 0.7rem;
+  margin-top: 0;
+}
+
+.key-takeaways ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.key-takeaways li {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  margin-bottom: 0.45rem;
+}
+
+.key-takeaways li:last-child {
+  margin-bottom: 0;
+}
+
+.chart-placeholder {
+  border: 1px dashed #ccc;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: #aaa;
+  margin: 2rem 0;
+  font-style: italic;
+}
+
 .gsl-return-date {
   display: block;
   font-size: 0.72rem;

@@ -202,6 +202,8 @@ function renderMarkdown(text) {
       html += '</tbody></table>\n'; continue;
     }
 
+    if (/^<[a-zA-Z\/!]/.test(line.trim())) { flush(); closeLists(); closeBq(); html += line + '\n'; continue; }
+
     if (para) para += ' ';
     para += line;
   }
