@@ -275,7 +275,7 @@ main.container {
 
 .article-body p.hub-lede {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   font-size: 0.9rem;
 }
 
@@ -671,7 +671,7 @@ main.container {
 .hub-divider {
   border: none;
   border-top: 1px solid var(--color-border);
-  margin: 0 0 2rem;
+  margin: 2rem 0;
 }
 
 /* Hub link paragraphs */
