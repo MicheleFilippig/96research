@@ -86,7 +86,22 @@ function loadArticle(articles) {
   var article = articles.find(function(a) { return a.slug === slug; });
 
   // Hub page — special full-page layout
-  var isHub = slug === 'turning-the-tide-gsl';
+  var HUB_CONFIG = {
+    'turning-the-tide-gsl': {
+      lede: 'The world’s shipping lanes are being redrawn by tariffs, sanctions, and geopolitical instability. For most operators, that means uncertainty. For those with flexible fleets and the right positioning, it’s a tailwind.',
+      image: 'images/Joseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour\'s_Mouth_-_WGA23178.jpg',
+      imageAlt: 'J.M.W. Turner — Snow Storm: Steam-Boat off a Harbour\'s Mouth',
+      caption: 'Snow Storm — J.M.W. Turner, 1842'
+    },
+    'yellowcake-chokepoint-case-energy-fuels': {
+      lede: '',
+      image: 'images/copertina yellowcake chokepoint.png',
+      imageAlt: 'An aerial view of the White Mesa Mill (Utah)',
+      caption: 'An aerial view of the White Mesa Mill (Utah), Joel Angel Juarez — The Republic'
+    }
+  };
+  var isHub = !!HUB_CONFIG[slug];
+  var hubConfig = HUB_CONFIG[slug] || {};
   if (isHub) {
     document.body.classList.add('hub-page');
     var backLink = document.createElement('a');
@@ -142,13 +157,15 @@ function loadArticle(articles) {
     .then(function(md) {
       var rendered = renderMarkdown(md);
       if (isHub) {
+        var ledeHtml = hubConfig.lede
+          ? '<p class="article-lede hub-lede">' + hubConfig.lede + '</p><hr class="hub-divider">'
+          : '';
         document.getElementById('article-body').innerHTML =
-          '<p class="article-lede hub-lede">The world\u2019s shipping lanes are being redrawn by tariffs, sanctions, and geopolitical instability. For most operators, that means uncertainty. For those with flexible fleets and the right positioning, it\u2019s a tailwind.</p>' +
-          '<hr class="hub-divider">' +
+          ledeHtml +
           '<div class="hub-layout">' +
             '<div class="hub-left">' +
-              '<img class="hub-hero" src="images/Joseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour\'s_Mouth_-_WGA23178.jpg" alt="J.M.W. Turner \u2014 Snow Storm: Steam-Boat off a Harbour\'s Mouth">' +
-              '<p class="hub-caption">Snow Storm \u2014 J.M.W. Turner, 1842</p>' +
+              '<img class="hub-hero" src="' + hubConfig.image + '" alt="' + hubConfig.imageAlt + '">' +
+              '<p class="hub-caption">' + hubConfig.caption + '</p>' +
             '</div>' +
             '<div class="hub-right">' +
               rendered +
