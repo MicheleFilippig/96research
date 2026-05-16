@@ -144,6 +144,7 @@ function loadArticle(articles) {
       if (isHub) {
         document.getElementById('article-body').innerHTML =
           '<p class="article-lede hub-lede">The world\u2019s shipping lanes are being redrawn by tariffs, sanctions, and geopolitical instability. For most operators, that means uncertainty. For those with flexible fleets and the right positioning, it\u2019s a tailwind.</p>' +
+          '<hr class="divider">' +
           '<div class="hub-layout">' +
             '<div class="hub-left">' +
               '<img class="hub-hero" src="images/Joseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour\'s_Mouth_-_WGA23178.jpg" alt="J.M.W. Turner \u2014 Snow Storm: Steam-Boat off a Harbour\'s Mouth">' +
