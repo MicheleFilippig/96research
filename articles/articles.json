@@ -5,5 +5,12 @@
     "date": "2025-11-01",
     "category": "equity-research",
     "description": "Monthly research package: sector overview and stock analysis"
+  },
+  {
+    "slug": "yellowcake-chokepoint-case-energy-fuels",
+    "title": "Yellowcake Chokepoint - The Case for Energy Fuels",
+    "date": "2026-05-16",
+    "category": "equity-research",
+    "description": "The case for Energy Fuels as uranium supply dynamics tighten"
   }
 ]
