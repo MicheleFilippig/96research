@@ -14,13 +14,13 @@
 </ul>
 </div>
 
-## The Setup Most Investors Are Missing
+## The Setup
 
 There is a certain irony in how Global Ship Lease (NYSE: GSL) gets discussed. The bull case has been correct for years, the stock has quietly compounded, and yet the valuation gap refuses to fully close. As of this writing, GSL trades at roughly 2.8x forward earnings and under 3x free cash flow, while generating over $130 million in adjusted EBITDA every quarter against a market capitalization that still sits well below $1.2 billion. At some point, "cheap" stops being a descriptor and starts being a diagnosis, and I think that diagnosis here is sector stigma rather than any fundamental flaw.
 
 My view, which I'll defend through the numbers and the industry structure, is that GSL offers an unusually asymmetric setup: near-term cash flows are largely locked in through fixed-rate charters, the balance sheet has been transformed from a leveraged mess into a fortress, and the segment of the market GSL operates in — mid-sized and smaller containerships under 10,000 TEU — faces structurally tighter supply dynamics than the headline containership narrative suggests. The risks are real and deserve serious treatment, but they are not adequately reflected in a 2-point-something P/E.
 
-## What GSL Actually Does, and Why the Business Model Matters
+## What GSL Actually Does
 
 Global Ship Lease is an independent owner and lessor of containerships, not a carrier. The distinction is important. GSL does not operate vessels on its own account or take freight rate exposure directly. Instead, it owns ships and charters them to the world's major container lines, collecting fixed daily hire rates regardless of whether freight rates in the spot market are rising or falling. Revenue is therefore a function of the contracted rate, fleet utilization, and charter duration rather than of spot freight conditions. This makes GSL far more predictable than the liner companies it serves.
 
