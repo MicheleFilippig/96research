@@ -2,6 +2,8 @@
 
 <div id="gsl-return"></div>
 
+<p class="article-lede">The world's shipping lanes are being redrawn, and for operators with flexible fleets, that's a tailwind.</p>
+
 <div class="key-takeaways">
 <p class="key-takeaways-title">Key Takeaways</p>
 <ul>

@@ -263,6 +263,16 @@ main.container {
   line-height: 1.78;
 }
 
+.article-lede {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  font-style: italic;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.8rem;
+  text-align: left;
+}
+
 .article-body h1 {
   font-family: var(--font-serif);
   font-size: 1.6rem;
