@@ -143,6 +143,7 @@ function loadArticle(articles) {
       var rendered = renderMarkdown(md);
       if (isHub) {
         document.getElementById('article-body').innerHTML =
+          '<p class="article-lede hub-lede">The world\u2019s shipping lanes are being redrawn, and for operators with flexible fleets, that\u2019s a tailwind.</p>' +
           '<div class="hub-layout">' +
             '<div class="hub-left">' +
               '<img class="hub-hero" src="images/Joseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour\'s_Mouth_-_WGA23178.jpg" alt="J.M.W. Turner \u2014 Snow Storm: Steam-Boat off a Harbour\'s Mouth">' +
